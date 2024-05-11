@@ -1,0 +1,16 @@
+{
+"companyName": "BrightestGames",
+"productName": "Fortride: Open World",
+"productVersion": "1.1",
+"dataUrl": "FortrideOpenWorld.data.unityweb",
+"wasmCodeUrl": "FortrideOpenWorld.wasm.code.unityweb",
+"wasmFrameworkUrl": "FortrideOpenWorld.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#141414",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.21f1"
+}
