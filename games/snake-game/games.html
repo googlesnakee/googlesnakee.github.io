@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <title> games</title>
+        <style>
+        
+    
+    
+    img {width: 32px;}
+        ul {
+          list-style: none;
+/*          height: 1000px;*/
+          overflow-x: hidden;
+/*          overflow-y: scroll;*/
+          
+          li {
+            
+           
+            border-bottom: black 1px solid;
+          }
+          
+        }
+
+    #review:hover {
+        cursor: pointer;
+        background-color:#5cbf2a;
+    }
+
+    #reset {
+        background-color: #af4c4c;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    #result {
+        width:fit-content;
+        min-width: 200px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: rgba(0, 0, 0, 0.692);
+        padding: 3px;
+        margin-left: 370px;
+        border: 3px;
+        min-height: 70px;
+        max-width: 975px;
+    }
+
+   
+
+    select {
+        margin-left: 20px;
+        position:absolute;
+    }
+
+    #typeOfCSR {
+        margin-left: 48px;
+        position: absolute;
+    }
+
+    #nameOfCert {
+        margin-left: 54px;
+        position: absolute;
+    }
+
+    #FQDN {
+        margin-left: 72px;
+        position: absolute;
+    }
+
+    #altName {
+        margin-left: 193px;
+        position: absolute;
+    }
+
+
+    #CN {
+        margin-left: 168px;
+        position:absolute;
+    }
+
+   
+    
+    
+ 
+    .sidebar {
+
+      font-size: 15px;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidebar a {
+
+        text-decoration: none;
+
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      .openbtn {
+       left: -7px ;
+   
+       
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+      }
+      .ratebtn {
+        top: 20px;
+ 
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+      }
+       .ratebtn1 {
+        top: 35px;
+ 
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+/*  padding: 15px;*/
+      }
+      
+     
+
+    /** linear-gradient(135deg, #71b7e6, #9b59b6) **/
+    /** #008ce4; **/
+.openbtn{position: absolute;}
+        </style>
+    </head>
+
+    <body> 
+
+      
+
+            <div class="container">
+
+                <div id="mySidebar" class="sidebar">
+                    <a class="closebtn">×</a>
+                   <ul style="list-style: none;">
+                     <li><a href="https://monkeymart.org/"> 
+                        <img loading="lazy" decoding="async" src="game-icons/monkey-mart.png" alt="Monkey Mart" data-pin-no-hover="true">
+                        Monkey Mart </a> 
+                     </li>
+                      <li><a href="https://monkeymart.ee/"> 
+                        <img loading="lazy" decoding="async" src="game-icons/monkey-mart.png" alt="Monkey Mart" data-pin-no-hover="true">
+                        Monkey Mart Unblocked</a> 
+                     </li>
+                     <li><a href="https://dreadheadparkour.org/" target="_blank" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/dreadhead-parkour.png" alt="dreadhead parkour" data-pin-no-hover="true">
+                        Dreadhead Parkour </a>
+                     </li>
+                     <li><a href="https://retrobowls.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/retro-bowl.png" alt="Retro Bowl" data-pin-no-hover="true">
+                        Retro Bowl </a>
+                     </li>
+                      <li><a href="https://retrobowlunblocked.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/retro-bowl.png" alt="Retro Bowl" data-pin-no-hover="true">
+                        Retro Bowl Unblocked</a>
+                     </li>
+
+                      <li><a href="https://retrobowlunblocked.net/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/retro-bowl-college.png" alt="Retro Bowl College" data-pin-no-hover="true">
+                        Retro Bowl College</a>
+                     </li>
+
+                     <li><a href="https://geometrydash.ee/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/geometry-dash.png" alt="Geometry Dash" data-pin-no-hover="true">
+                        Geometry Dash</a>
+                     </li>
+                     <li><a href="https://suikagame.me/" rel="noopener" target="_blank"> <img loading="lazy" decoding="async" src="game-icons/suika-game.png" alt="Suika Game - Watermelon game" data-pin-no-hover="true">
+                        Suika Game</a>
+                     </li>
+                     <li><a href="https://googleminesweeper.org/" rel="noopener" target="_blank"> <img loading="lazy" decoding="async" src="game-icons/google-minesweeper.png" alt="Google Minesweeper" data-pin-no-hover="true">
+                        Google Minesweeper</a>
+                     </li>
+                     <li><a href="https://googlesolitaire.org/" rel="noopener" target="_blank"> <img loading="lazy" decoding="async" src="game-icons/google-solitaire.png" alt="Google Solitaire" data-pin-no-hover="true">
+                        Google Solitaire</a>
+                     </li>
+                     <li><a href="http://googlesnake.org/" rel="noopener" target="_blank"> <img loading="lazy" decoding="async" src="game-icons/google-snake.png" alt="Google Snake" data-pin-no-hover="true">
+                        Google Snake</a>
+                     </li>
+                     <li><a href="https://dinosaurgame.org/" rel="noopener" target="_blank"> <img loading="lazy" decoding="async" src="game-icons/dinosaur-game.png" alt="Dinosaur Game" data-pin-no-hover="true">
+                        Dinosaur Game</a>
+                     </li>
+                     <li><a href="https://worldofsolitaire.app/" rel="noopener" target="_blank"> <img loading="lazy" decoding="async" src="game-icons/world-of-solitaire.jpeg" alt="World Of Solitaire" data-pin-no-hover="true">
+                        World Of Solitaire</a>
+                     </li>
+                     <li><a href="https://drivemad.org/" rel="dofollow noopener"> 
+                        <img loading="lazy" decoding="async" src="game-icons/drive-mad.png" alt="Drive Mad" data-pin-no-hover="true">
+                        Drive Mad</a>
+                     </li>
+                     <li><a href="https://eggycar.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/eggy-car.png" alt="Eggy car" data-pin-no-hover="true">
+                        Eggy Car</a>
+                     </li>
+                     <li><a href="https://basketballlegends.net/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/basketball-legends.png" alt="Basketball Legends" data-pin-no-hover="true">
+                        Basketball Legends</a> 
+                     </li>
+                     <li><a href="https://drifthunters.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/drift-hunters-min.png" alt="Drift Hunters" data-pin-no-hover="true">
+                        Drift Hunters</a>
+                     </li>
+                     <li> <a href="https://tiny-fishing.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/tiny-fishing.png" alt="Tiny Fishing" data-pin-no-hover="true">
+                        Tiny Fishing</a>
+                     </li>
+                     <li> <a href="https://stickmanhook.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/stick-man-hook-min.png" alt="Tiny Fishing" data-pin-no-hover="true">
+                        Stickman Hook</a>
+                     </li>
+                     <li>  <a href="https://asmallworldcup.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/a-small-world-cup-min.png" alt="A Small World Cup" data-pin-no-hover="true">
+                        A Small World Cup</a>
+                     </li>
+                     <li><a href="https://1v1lolunblocked.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/1v1-lol.png" alt="1v1.LOL" data-pin-no-hover="true">
+                        1v1.LOL </a>
+                     </li>
+                     <li><a href="https://jellytruck.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/jelly-truck.png" alt="Jelly Truck" data-pin-no-hover="true">
+                        Jelly Truck</a>
+                     </li>
+                      <li><a href="https://ironsnout.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/iron-snout-min.png" alt="Iron Snout" data-pin-no-hover="true">
+                        Iron Snout</a>
+                     </li>
+                       <li><a href="https://houseofhazards.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/house-of-hazards.png" alt="House Of Hazards" data-pin-no-hover="true">
+                        House Of Hazards</a>
+                     </li>
+                       <li><a href="https://run3unblocked.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/run-3.png" alt="Run 3 Unblocked" data-pin-no-hover="true">
+                        Run 3 Unblocked</a>
+                     </li>
+                       <li><a href="https://leveldevil.net/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/level-devil.jpeg" alt="Level Devil" data-pin-no-hover="true">
+                        Level Devil</a>
+                     </li> <li><a href="https://kiwiclicker.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/kiwi-clicker.png" alt="Kiwi Clicker" data-pin-no-hover="true">
+                        Kiwi Clicker</a>
+                     </li> <li><a href="https://ovogame.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/ovo-game.png" alt="ovo game" data-pin-no-hover="true">
+                        ovo game</a>
+                     </li> <li><a href="https://subwaysurfersgame.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/subway-surfers.png" alt="Subway Surfers" data-pin-no-hover="true">
+                        Subway Surfers</a>
+                     </li> 
+                     <li><a href="http://basket-random.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/basket-random.png" alt="Basket Random" data-pin-no-hover="true">
+                        Basket Random</a>
+                     </li>
+                     <li><a href="https://watermelongames.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/watermelon-games.png" alt="Watermelon Games" data-pin-no-hover="true">
+                        Watermelon Games</a>
+                     </li>
+                     <li><a href="https://watermelondrop.org/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/watermelon-drop.jpeg" alt="Watermelon Drop" data-pin-no-hover="true">
+                        Watermelon Drop</a>
+                     </li>
+                     <li><a href="https://unblockedgames.ee/" rel="noopener" target="_blank"> 
+                        <img loading="lazy" decoding="async" src="game-icons/unblocked-games.png" alt="Unblocked Games" data-pin-no-hover="true">
+                        Unblocked Games  </a>
+                     </li>
+
+                  </ul>
+         </div>
+                  </div>
+            
+                  <div id="main">
+                  <button type="button" class="openbtn">☰ More Games</button>
+                   <a class="ratebtn"  href="https://googlesnake.org/"  target="_blank" style="  height: 42px;
+    left: 10px;
+    position: absolute;" >Google Snake</a>
+       <a class="ratebtn1"  href="#" id="rate" class="rate" target="_blank" style="  width: 200px;  left: -5px;
+    position: absolute;" >⭐ Please Rate Us!</a>
+                  <iframe src="index.html" id="gameframe" frameborder="0" style="width: 750px; height: 550px;"></iframe>
+ 
+            
+    
+    </div>
+ 
+
+
+            <div type="button" id="review"></div>
+             
+             
+    
+      
+          </div>
+
+    </div>
+
+        <script src="sidebar.js"> </script>
+        <script src="rate.js"> </script>
+    </body>
+
+    </html>
