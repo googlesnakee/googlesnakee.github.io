@@ -1,0 +1,38 @@
+{
+ 
+
+    "manifest_version": 3,
+    "name": "Infinite Mario Bros Game",
+      "default_locale":"en_US",
+    "description": "Now you can play Infinite Mario Bros Game right on Chrome™ Browser! Offline and Popup Version, without internet required!",
+    "offline_enabled": true,
+    "version": "1.0.2",
+    "action": {
+      "default_icon": {
+      "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    },
+        "default_title": "Infinite Mario Bros" 
+      },
+
+      "icons":{ 
+       "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+        },
+    "background": {
+        "service_worker": "background.js"
+      }, 
+    "options_page": "index.html",  
+    "homepage_url": "https://classroom-6x.org/"
+
+  }
